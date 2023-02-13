@@ -15,6 +15,15 @@ button {
     cursor: pointer;
 }
 
+.big-font-poppins {
+    font: 700 2.5rem "Poppins", sans-serif;
+    line-height: 2;
+}
+
+.medium-img {
+    width: 30rem;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -117,7 +126,7 @@ main {
 .your-users-article {
     background-size: 100% auto;
     padding: 9rem 0;
-    margin: 5rem 0;
+    margin: 8rem 0;
 }
 
 .grow-together-content,
@@ -134,17 +143,11 @@ main {
     background-color: #F6FBFF;
 }
 
-.grow-together-text h3,
-.flowing-conversations-article h3,
-.your-users-content h3 {
-    font: 700 2.5rem "Poppins", sans-serif;
-    line-height: 2;
-}
-
-.grow-together-content img,
-.flowing-conversations-article img,
-.your-users-content img {
-    width: 30rem;
+/* Aside */
+.aside-ready-to-build {
+    display: grid;
+    place-items: center;
+    padding: 0 10rem 8rem 10rem;
 }
 
 .attribution { font-size: 11px; text-align: center; }
